@@ -1,0 +1,4 @@
+llama-index
+python-dotenv
+google-generativeai
+IPython
