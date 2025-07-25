@@ -5,5 +5,6 @@ python-dotenv==1.1.1
 setuptools==80.9.0
 streamlit==1.37.1
 llama-index-embeddings-huggingface==0.5.5
-llama-index-core
-llama-index-embeddings-langchain==0.3.0
+llama-index-embeddings-langchain
+sentence-transformers
+torch>=2.1.2,<3.0.0
