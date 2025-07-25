@@ -1,13 +1,11 @@
-llama-index==0.10.32           # safer and more compatible than 0.12+
-llama-index-embeddings-huggingface==0.5.5
-llama-index-embeddings-gemini==0.3.2
-llama-index-llms-gemini==0.5.4
-google-generativeai==0.8.5
-
-pypdf
-python-dotenv
-IPython
-streamlit==1.47.0
-transformers
-torch
-sentence-transformers
+ipython==8.27.0
+ipython==9.3.0
+ipython==9.4.0
+ipython==8.15.0
+llama_index==0.12.52
+protobuf==4.25.3
+python-dotenv==1.1.1
+setuptools==75.1.0
+setuptools==78.1.1
+setuptools==80.9.0
+streamlit==1.37.1
