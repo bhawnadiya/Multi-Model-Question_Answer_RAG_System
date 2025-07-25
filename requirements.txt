@@ -6,3 +6,4 @@ setuptools==80.9.0
 streamlit==1.37.1
 llama-index-embeddings-huggingface==0.5.5
 llama-index-core
+llama-index-embeddings-langchain==0.3.0
