@@ -2,7 +2,7 @@ llama-index==0.10.32           # safer and more compatible than 0.12+
 llama-index-embeddings-huggingface==0.5.5
 llama-index-embeddings-gemini==0.3.2
 llama-index-llms-gemini==0.5.0
-google-generativeai==0.3.2
+google-generativeai==0.5.4
 
 pypdf
 python-dotenv
