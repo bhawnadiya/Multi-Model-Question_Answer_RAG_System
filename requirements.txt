@@ -1,12 +1,13 @@
-llama-index==0.9.48
+llama-index==0.10.32           # safer and more compatible than 0.12+
 llama-index-embeddings-huggingface==0.5.5
 llama-index-embeddings-gemini==0.3.2
 llama-index-llms-gemini==0.5.0
-google-generativeai==0.5.4
-pypdf==3.17.4
-python-dotenv==1.0.1
-IPython==8.24.0
+google-generativeai==0.3.2
+
+pypdf
+python-dotenv
+IPython
 streamlit==1.47.0
-transformers==4.41.2
-torch==2.3.0
-sentence-transformers==2.7.0
+transformers
+torch
+sentence-transformers
