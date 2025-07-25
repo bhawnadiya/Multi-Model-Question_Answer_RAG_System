@@ -1,8 +1,7 @@
 from llama_index.core import VectorStoreIndex
 from llama_index.core import StorageContext, load_index_from_storage
-from llama_index.embeddings.gemini import GeminiEmbedding
 from llama_index.core.settings import Settings
-from google.generativeai.types import RequestOptions
+from google.api_core import client_options
 from llama_index.embeddings.huggingface.base import HuggingFaceEmbedding
 from QAWithPDF.data_ingestion import load_data
 from QAWithPDF.model_api import load_model
