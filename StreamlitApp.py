@@ -80,4 +80,5 @@ def main():
         st.warning("⚠️ Please upload a document before asking questions.")
 
 if __name__ == "__main__":
-    main()
+    port = int(os.environ.get("PORT", 8501))
+    os.system(f"streamlit run StreamlitApp.py --server.port={port} --server.enableCORS=false")
