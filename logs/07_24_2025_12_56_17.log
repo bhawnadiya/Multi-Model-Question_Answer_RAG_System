@@ -1,0 +1,5 @@
+[2025-07-24 12:56:59,923] 160 numexpr.utils INFO NumExpr defaulting to 4 threads.
+[2025-07-24 12:57:16,050] 149 tensorflow WARNING From C:\Users\pc\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-07-24 12:57:17,659] 149 tensorflow WARNING From C:\Users\pc\anaconda3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
