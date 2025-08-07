@@ -1,8 +1,6 @@
-1lama-index
-google-generativeai
-1lama-index-llms-gemini
-Pypdf
-python-dotenv
-IPython
-1lama-index-embeddings-gemini
-streamlit
+ipython==8.12.3
+llama_index==0.13.0
+protobuf==4.25.3
+python-dotenv==1.1.1
+setuptools==80.9.0
+streamlit==1.37.1
