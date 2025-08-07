@@ -24,7 +24,7 @@ def download_gemini_embedding(model, document):
         # Configure global Settings instead of instantiating
         Settings.llm = model
         Settings.embed_model = gemini_embed_model
-        Settings.chunk_size = 800
+        Settings.chunk_size = 1024
         Settings.chunk_overlap = 20
 
         logging.info("Creating VectorStoreIndex from documents...")

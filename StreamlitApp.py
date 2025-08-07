@@ -16,13 +16,13 @@ def main():
     st.title("📄 Enterprise Multi-Modal Document Q&A System")
     st.markdown("""
     Upload your documents and ask questions based on the content inside.  
-    **Supported formats:** PDF, DOCX, XLSX, CSV, TXT, PPTX, Images,  Emails etc.  
+    **Supported formats:** PDF, DOC, DOCX,MSG, TXT, XLSX, CSV, PPT, PPTX, Emails etc.  
     Max File Size: **200MB**
     """)
 
     st.header("📤 Upload Documents")
     uploaded_file = st.file_uploader("Drag & drop your file here or click to browse", 
-                                     type=["doc", "docx", "txt", "msg", "pdf", "png", "jpeg", "jpg", "eml", "xlsx", "csv", "ppt", "pptx"])
+                                     type=["doc", "docx", "txt", "msg", "pdf", "eml", "xlsx", "csv", "ppt", "pptx"])
 
     if uploaded_file:
         # Get file extension
