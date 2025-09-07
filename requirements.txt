@@ -1,5 +1,4 @@
 ipython==8.12.3
-llama_index==0.13.0
 protobuf==4.25.3
 python-dotenv==1.1.1
 setuptools==80.9.0
@@ -7,3 +6,5 @@ streamlit==1.37.1
 google-generativeai==0.8.5
 openai==1.97.1
 transformers==4.53.3
+llama-index>=0.10.30
+llama-index-embeddings-gemini
